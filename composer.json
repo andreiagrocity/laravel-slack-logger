@@ -1,0 +1,26 @@
+{
+  "name": "ioanandrei/slack-logger",
+  "description": "Send different kind of exceptions to slack channels.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrei Ioan",
+      "email": "andrei@agrocity.eu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ioanandrei\\SlackLogger\\": "src/"
+    }
+  },
+  "require": {
+    "laravel/framework": "^9.0.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ioanandrei\\SlackLogger\\SlackLoggerServiceProvider"
+      ]
+    }
+  }
+}
